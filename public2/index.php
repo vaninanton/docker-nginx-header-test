@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>index1</h1>
+    <h1>index2</h1>
+    <pre>x-request-waf: <?=$_SERVER['HTTP_X_REQUEST_WAF']??'false'?></pre>
 </body>
 </html>
