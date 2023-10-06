@@ -2,6 +2,7 @@ version: "3"
 
 services:
     app:
+        image: php:8.2-fpm
         working_dir: /var/www/html
         volumes:
             - ./:/var/www/html
